@@ -1,6 +1,6 @@
 .card-container {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   margin-left: 20rem;
   margin-top: 2rem;
   z-index: -2;
@@ -8,9 +8,13 @@
 
 .card {
   margin: 20px;
-  border: 2px solid #ededed;
   padding: 20px;
+  border: 2px solid #ededed;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .card-img {

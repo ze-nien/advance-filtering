@@ -4,7 +4,7 @@ import { BsFillBagHeartFill } from "react-icons/bs";
 const Card = ({ img, title, star, reviews, newPrice, prevPrice }) => {
   return (
     <section className="card">
-      <img className="card-img " src={img} alt={title} />
+      <img className="card-img " decoding="async" src={img} alt={title} />
       <div className="card-details">
         <h3 className="card-title">{title}</h3>
         <section className="card-reviews">

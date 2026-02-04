@@ -1,5 +1,4 @@
 import React from "react";
-import "./Category.css";
 import Input from "../../components/Input";
 
 const Category = ({ handleChange }) => {
